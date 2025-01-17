@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+  padding: 20px 30px;
+  font-family: 'Inter', sans-serif;
+  background-color: #F1F1F2;
+}
+
+.process-container{
+  display: flex;
+  flex-direction: row; /* Arrange the items in a column */
+  height: 50vh;
+  gap: 5px;
+}
+
+.process-container button{
+  border-style: solid 1px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #1995AD;
+}
+
+.process-container button:hover{
+  background-color: #16768C;
+  cursor: pointer;
+}
+
+.actions-container, .link-container{
+  border-style: solid;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #AFDDE5;
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link-container button{
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.link-container textarea{
+  width: 98.4%;
+}
+
+.actions-container{
+  display: flex;
+  flex-direction: column;
+  width: 140vh;
+}
+
+.actions-container h2{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.action-buttons{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.action-buttons button{
+  padding: 10px 20px;
+  height: 100px;
+  width: 200px;
+}
+
+.floating-buttons{
+  position: absolute;
+  right: 50px;
+}
+
+.floating-buttons button{
+  color: white;
+  height: 40px;
+}
+
+.floating-buttons button:hover{
+  cursor: pointer;
+  background-color: #813b76;
+}
+
+.floating-buttons :nth-child(1){
+  background-color: rgb(250, 42, 42);
+}
+.floating-buttons :nth-child(2){
+  background-color: rgb(51, 177, 51);
+  margin-left:10px;
+  
+}
+
+

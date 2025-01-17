@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>URL Redirector</title>
+</head>
+<body>
+  <div class="process-container">
+    <div class="link-container">
+      <form id="redirectForm">
+        <button id="startButton" type="submit">Start</button>
+        <textarea id="urlInput" placeholder="Enter multiple urls"
+        rows="15" cols="50" required></textarea>
+      </form>
+    </div>
+  
+    <div class="actions-container">
+      <h3 id="remaining">Links Remaining</h3>
+      <h2 id="currentLink">links.com</h2>
+      <div class="action-buttons">
+        <button id="nextButton"">Next</button>
+        <button id="saveButton"">Save</button>
+      </div>
+    </div>
+  </div>
+  <div class="floating-buttons">
+    <button id="brokenButton">Broken Link</button>
+    <button id="downloadButton">Save List</button>
+  </div>
+  <div class="list-container">
+    <h2>Saved Links:</h2>
+    <ul id="linkList"></ul>
+  </div>
+
+
+
+</body>
+</html>
